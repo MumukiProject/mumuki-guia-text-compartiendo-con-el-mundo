@@ -1,1 +1,1 @@
-Pero con esto no guardamos realmente nuestro trabajo, sólo registramos la existencia de otra-pc. Veamos cómo hacerlo
+Pero con esto no guardamos realmente nuestro trabajo, sólo registramos la existencia de otra-pc. ¡Veamos cómo hacerlo en los siguientes ejercicios!
