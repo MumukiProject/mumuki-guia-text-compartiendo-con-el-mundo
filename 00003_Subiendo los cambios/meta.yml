@@ -9,4 +9,4 @@ manual_evaluation: false
 choices: []
 goal:
   kind: last_query_equals
-  value: git push otra-pc master
+  value: git push origin master
