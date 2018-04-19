@@ -10,3 +10,11 @@ echo "Una historia" >> capitulo2.txt
 git add capitulo2.txt
 git commit -m "Segundo capítulo"
 git remote add origin http://otra-pc/foo/bar
+function git {
+   ACTION=$1
+   REMOTE=$2
+   BRANCH=$3
+   [[ "$ACTION" == "push" ]] && [[ "$REMOTE" == "origin" ]] && [[ "$BRANCH" == "master" ]] &&
+   echo "El repositorio se actualizó correctamente" || /usr/bin/git $@
+}
+export -f git
