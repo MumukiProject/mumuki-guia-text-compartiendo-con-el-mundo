@@ -8,5 +8,5 @@ language: bash
 manual_evaluation: false
 choices: []
 goal:
-  kind: last_query_equals
-  value: git push origin master
+  kind: last_query_outputs
+  output: El repositorio se actualizó correctamente
