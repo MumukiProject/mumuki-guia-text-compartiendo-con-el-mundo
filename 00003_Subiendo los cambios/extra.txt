@@ -9,4 +9,7 @@ touch capitulo2.txt
 echo "Una historia" >> capitulo2.txt
 git add capitulo2.txt
 git commit -m "Segundo capítulo"
-git remote add 
+git remote add origin http://otra-pc/foo/bar
+function git push origin master {
+   echo "El repositorio se envío correctamente"
+}
