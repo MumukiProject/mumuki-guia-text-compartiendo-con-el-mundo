@@ -1,8 +1,12 @@
 ---
 tags: []
-layout: input_right
+layout: input_bottom
 editor: code
-type: problem
+type: interactive
 extra_visible: false
+language: bash
 manual_evaluation: false
 choices: []
+goal:
+  kind: last_query_equals
+  value: git log
