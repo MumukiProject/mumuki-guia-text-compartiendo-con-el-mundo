@@ -9,4 +9,4 @@ manual_evaluation: false
 choices: []
 goal:
   kind: last_query_equals
-  value: git remote add origin http://otra-oc/foo/bar
+  value: git remote add origin http://otra-pc/foo/bar

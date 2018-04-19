@@ -2,4 +2,4 @@ Todo muy lindo, pero el problema es que hasta ahora todo está en nuestra máqui
 
 git remote add origin <...>
 
-> Veamos si queda claro: en la ruta /home/mumuki/inventario contamos con un proyecto haskell. Registrá como computadora remota a http://otra-pc/foo/bar. 
+> Veamos si queda claro: en la ruta /home/mumuki/libro-maravilloso se encuentra el libro. Registrá como computadora remota a http://otra-pc/foo/bar. 
