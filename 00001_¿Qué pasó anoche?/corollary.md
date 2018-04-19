@@ -1,1 +1,1 @@
-a diferencia de git status, que nos muestra el estado del commit actual, git log nos muestra la historia
+A diferencia de git status, que nos muestra el estado del commit actual, git log nos muestra la historia completa del repositorio.
