@@ -6,7 +6,7 @@ echo "Había un avestruz." >> capitulo1.txt
 git add capitulo1.txt
 git remote add origin http://otra-pc/foo/bar
 function git {
-  STATUS = /usr/bin/git status
+  STATUS=/usr/bin/git status
   ACTION=$1
   REMOTE=$2
   BRANCH=$3
