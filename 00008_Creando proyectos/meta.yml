@@ -1,8 +1,9 @@
 ---
 tags: []
 layout: input_right
-editor: code
+editor: text
 type: problem
 extra_visible: false
+language: text
 manual_evaluation: false
 choices: []
