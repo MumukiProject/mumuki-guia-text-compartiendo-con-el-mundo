@@ -10,7 +10,6 @@ function git {
   REMOTE=$2
   BRANCH=$3
   [[ "$ACTION" == "push" ]] && [[ "$REMOTE" == "origin" ]] && [[ "$BRANCH" == "master" ]] && [[ $STATUS = *"nothing to commit"* ]] &&
-  echo "No tenes permisos para actualizar el repositorio en Github" && 
-  exit 125 || /usr/bin/git $@
+  echo "No tenes permisos para actualizar el repositorio en Github" && || /usr/bin/git $@
 }
 export -f git
