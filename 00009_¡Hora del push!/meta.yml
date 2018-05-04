@@ -7,5 +7,5 @@ extra_visible: false
 manual_evaluation: false
 choices: []
 goal:
-  kind: last_query_equals
-  value: No tenés permisos para actualizar el repositorio en Github
+  kind: last_query_outputs
+  output: No tenés permisos para actualizar el repositorio en Github
