@@ -8,4 +8,4 @@ manual_evaluation: false
 choices: []
 goal:
   kind: last_query_equals
-  value: nada
+  value: No tenés permisos para actualizar el repositorio en Github
