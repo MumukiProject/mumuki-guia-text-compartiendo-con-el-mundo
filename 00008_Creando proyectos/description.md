@@ -1,6 +1,6 @@
 Si ya verificaste la cuenta, ¡vamos a probar creando un proyecto!
 
-Ingresá a https://github.com/new y seguí estos pasos:
+Ingresá a [https://github.com/new](Link) y seguí estos pasos:
 
 1. Completá el input que dice `Repository name` con el siguiente nombre `mumuki-proyecto-prueba`.
 2. Luego hacé click en el botón verde que dice `Create Repository`
