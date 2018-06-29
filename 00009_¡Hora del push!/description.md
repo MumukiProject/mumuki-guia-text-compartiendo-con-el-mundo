@@ -1,4 +1,4 @@
-Hacer Git remote add, git push, y ver que falla
+> Agregá el remote `http://otra-pc/foo/bar` y luego hacé `git push origin master`
 
-git remote add origin http://otra-pc/foo/bar
+
 
