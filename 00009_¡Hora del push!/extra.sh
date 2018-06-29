@@ -4,6 +4,7 @@ git init .
 touch capitulo1.txt
 echo "Había un avestruz." >> capitulo1.txt
 git add capitulo1.txt
+git commit -m "Primer commit"
 function git {
   STATUS=$(/usr/bin/git status)
   ACTION=$1
