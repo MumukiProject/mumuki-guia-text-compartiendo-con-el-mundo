@@ -10,3 +10,4 @@ choices: []
 goal:
   kind: last_query_equals
   value: git remote add origin http://otra-pc/foo/bar
+name: Repositorios remotos
