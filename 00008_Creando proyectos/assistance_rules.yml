@@ -1,0 +1,4 @@
+---
+rules:
+- when: content_empty
+  then: Escribí una URL por favor
