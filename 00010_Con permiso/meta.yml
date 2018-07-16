@@ -17,4 +17,3 @@ choices:
   checked: true
 - value: Hacer `git push origin master`
   checked: true
-name: Con permiso

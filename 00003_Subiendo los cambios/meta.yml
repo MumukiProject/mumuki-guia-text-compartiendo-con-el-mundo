@@ -10,4 +10,3 @@ choices: []
 goal:
   kind: last_query_outputs
   output: El repositorio se actualizó correctamente
-name: Subiendo los cambios
