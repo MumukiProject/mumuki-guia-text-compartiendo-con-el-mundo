@@ -8,6 +8,7 @@ language: bash
 manual_evaluation: false
 choices: []
 goal:
-  kind: last_query_equals
-  value: git remote add origin http://otra-pc/foo/bar
+  kind: query_outputs
+  query: git remote show origin -n | grep remote
+  output: "* remote origin"
 name: Repositorios remotos
