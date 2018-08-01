@@ -9,5 +9,5 @@ manual_evaluation: false
 choices: []
 goal:
   kind: query_passes
-  query: git remote show origin -n | grep http://otra-pc/foo/bar -oq
+  query: git remote show origin -n | grep -oq http://otra-pc/foo/bar
 name: Repositorios remotos
