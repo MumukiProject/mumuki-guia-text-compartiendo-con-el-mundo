@@ -8,6 +8,6 @@ language: bash
 manual_evaluation: false
 choices: []
 goal:
-  kind: query_passes
-  query: git remote show origin -v | grep -oq http://otra-pc/foo/bar
+  kind: last_query_equals
+  value: git remote add origin http://otra-pc/foo/bar
 name: Repositorios remotos
