@@ -8,9 +8,6 @@ language: bash
 manual_evaluation: false
 choices: []
 goal:
-  kind: query_outputs
-  query: git remote -v | grep origin | grep http | grep push
-  output: 'origin  http://otra-pc/foo/bar (push)
-
-'
+  kind: query_passes
+  query: git remote show origin -n | grep http://otra-pc/foo/bar -oq
 name: Repositorios remotos
