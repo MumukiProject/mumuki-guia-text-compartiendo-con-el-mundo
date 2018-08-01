@@ -10,5 +10,7 @@ choices: []
 goal:
   kind: query_outputs
   query: git remote -v | grep origin | grep http | grep push
-  output: origin  http://otra-pc/foo/bar (push)
+  output: 'origin  http://otra-pc/foo/bar (push)
+
+'
 name: Repositorios remotos
